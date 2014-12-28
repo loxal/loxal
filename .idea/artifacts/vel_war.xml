@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vel:war">
+    <output-path>$PROJECT_DIR$/../vel/target</output-path>
+    <root id="archive" name="Vel.war">
+      <element id="artifact" artifact-name="vel:war exploded" />
+    </root>
+  </artifact>
+</component>

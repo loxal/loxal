@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../example/example.iml" filepath="$PROJECT_DIR$/../example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loxal.iml" filepath="$PROJECT_DIR$/loxal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rest-client/rest-client.iml" filepath="$PROJECT_DIR$/../rest-client/rest-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rest-kit/rest-kit.iml" filepath="$PROJECT_DIR$/../rest-kit/rest-kit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vel/vel.iml" filepath="$PROJECT_DIR$/../vel/vel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vel/vel.iml" filepath="$PROJECT_DIR$/../vel/vel.iml" />
+    </modules>
+  </component>
+</project>

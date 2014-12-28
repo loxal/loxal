@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.6.10/aspectjtools-1.6.10.jar" />
+    <option name="heapSize" value="512" />
+  </component>
+  <component name="CompilerAPISettings">
+    <option name="MAXIMUM_HEAP_SIZE" value="512" />
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+      <entry name="trace.info" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <processorPath useClasspath="true">
+          <entry name="$PROJECT_DIR$/../../sdk/gwt/requestfactory-apt.jar" />
+        </processorPath>
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="false">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <processorPath useClasspath="true">
+          <entry name="$PROJECT_DIR$/../../sdk/gwt/requestfactory-apt.jar" />
+        </processorPath>
+        <module name="cockpit" />
+        <module name="Cockpit" />
+        <module name="cockpit-data-integration" />
+        <module name="cockpit-demo" />
+        <module name="cockpit-demo-widgets" />
+        <module name="cockpit-module-aggregator-remote" />
+        <module name="cockpit-sampledata" />
+        <module name="cockpit-standard-editors" />
+        <module name="cockpitadmin" />
+        <module name="cockpitframework4fx" />
+        <module name="Epvin" />
+        <module name="example" />
+        <module name="fx" />
+        <module name="order-mashup-service" />
+        <module name="rest-client" />
+        <module name="rest-endpoint-server-template" />
+        <module name="rest-kit" />
+        <module name="rest-template" />
+        <module name="RESTkit" />
+        <module name="sampledata (1)" />
+        <module name="vel" />
+        <module name="Vel" />
+        <module name="whoami" />
+        <module name="wishlist" />
+        <module name="ZK" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example" target="1.8" />
+      <module name="rest-client" target="1.8" />
+      <module name="rest-kit" target="1.8" />
+      <module name="Vel" target="1.8" />
+      <module name="vel" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:unchecked" />
+  </component>
+</project>
