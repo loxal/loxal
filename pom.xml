@@ -15,6 +15,7 @@
     <name>meta</name>
     <description>loxal Meta Harness</description>
 
+    <!--TODO check to enable this-->
     <!--<modules>-->
     <!--<module>.</module>-->
     <!--</modules>-->
