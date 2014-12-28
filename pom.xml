@@ -148,6 +148,12 @@
         </profile>
     </profiles>
 
+    <scm>
+        <connection>scm:git:git://github.com:loxal/loxal.git</connection>
+        <developerConnection>scm:git:git@github.com:loxal/loxal.git</developerConnection>
+        <url>https://github.com/loxal/loxal</url>
+        <tag>HEAD</tag>
+    </scm>
     <organization>
         <name>loxal</name>
         <url>http://www.loxal.net</url>
