@@ -15,10 +15,9 @@
     <name>meta</name>
     <description>loxal Meta Harness</description>
 
-    <!--TODO check to enable this-->
-    <!--<modules>-->
-    <!--<module>.</module>-->
-    <!--</modules>-->
+    <modules>
+        <module>.</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

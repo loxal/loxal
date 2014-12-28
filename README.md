@@ -1,3 +1,3 @@
-# loxal Meta Project
+# loxal Meta Harness
 
 * contains project configuration meta-data
