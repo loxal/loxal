@@ -35,39 +35,17 @@
         <processorPath useClasspath="true">
           <entry name="$PROJECT_DIR$/../../sdk/gwt/requestfactory-apt.jar" />
         </processorPath>
-        <module name="cockpit" />
-        <module name="Cockpit" />
-        <module name="cockpit-data-integration" />
-        <module name="cockpit-demo" />
-        <module name="cockpit-demo-widgets" />
-        <module name="cockpit-module-aggregator-remote" />
-        <module name="cockpit-sampledata" />
-        <module name="cockpit-standard-editors" />
-        <module name="cockpitadmin" />
-        <module name="cockpitframework4fx" />
-        <module name="Epvin" />
         <module name="example" />
-        <module name="fx" />
-        <module name="order-mashup-service" />
         <module name="rest-client" />
-        <module name="rest-endpoint-server-template" />
         <module name="rest-kit" />
-        <module name="rest-template" />
-        <module name="RESTkit" />
-        <module name="sampledata (1)" />
         <module name="vel" />
-        <module name="Vel" />
-        <module name="whoami" />
-        <module name="wishlist" />
-        <module name="ZK" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="example" target="1.8" />
       <module name="rest-client" target="1.8" />
       <module name="rest-kit" target="1.8" />
-      <module name="Vel" target="1.8" />
-      <module name="vel" target="1.7" />
+      <module name="vel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
