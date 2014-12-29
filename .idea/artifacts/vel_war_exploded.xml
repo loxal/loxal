@@ -6,10 +6,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="vel" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:0.10.195" />
-          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-runtime:0.10.195" />
-        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/../vel/target/MANIFEST.MF" />
