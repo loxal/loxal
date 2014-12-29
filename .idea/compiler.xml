@@ -67,7 +67,7 @@
       <module name="rest-client" target="1.8" />
       <module name="rest-kit" target="1.8" />
       <module name="Vel" target="1.8" />
-      <module name="vel" target="1.8" />
+      <module name="vel" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
