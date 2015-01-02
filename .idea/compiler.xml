@@ -44,7 +44,7 @@
     <bytecodeTargetLevel>
       <module name="example" target="1.8" />
       <module name="rest-client" target="1.8" />
-      <module name="rest-kit" target="1.8" />
+      <module name="rest-kit" target="1.7" />
       <module name="vel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
