@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="vel:war exploded">
-    <output-path>$PROJECT_DIR$/../vel/target/Vel</output-path>
+    <output-path>$PROJECT_DIR$/../vel/target/vel-3.2.0-RELEASE</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
