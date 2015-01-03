@@ -4,7 +4,7 @@
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="net.loxal.client.rest.App" />
-        <option name="description" value="Description" />
+        <option name="description" value="REST Client Tool" />
         <option name="htmlParamFile" value="" />
         <option name="nativeBundle" value="all" />
         <option name="paramFile" value="" />
