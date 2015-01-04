@@ -17,3 +17,61 @@ java -classpath "\
 /Users/alex/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:\
 /Users/alex/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:\
 " net.loxal.client.rest.App
+
+
+cp -r /Users/alex/my/project/loxal/rest-client/target/classes tmp
+cp /Users/alex/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/0.10.195/kotlin-stdlib-0.10.195.jar tmp
+cp /Users/alex/.m2/repository/org/jetbrains/kotlin/kotlin-runtime/0.10.195/kotlin-runtime-0.10.195.jar tmp
+cp /Users/alex/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/jersey/core/jersey-client/2.13/jersey-client-2.13.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/jersey/core/jersey-common/2.13/jersey-common-2.13.jar tmp
+cp /Users/alex/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.13/jersey-guava-2.13.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar tmp
+cp /Users/alex/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/hk2/hk2-api/2.3.0-b10/hk2-api-2.3.0-b10.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/hk2/hk2-utils/2.3.0-b10/hk2-utils-2.3.0-b10.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b10/aopalliance-repackaged-2.3.0-b10.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/hk2/external/javax.inject/2.3.0-b10/javax.inject-2.3.0-b10.jar tmp
+cp /Users/alex/.m2/repository/org/glassfish/hk2/hk2-locator/2.3.0-b10/hk2-locator-2.3.0-b10.jar tmp
+cp /Users/alex/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar tmp
+cp /Users/alex/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar tmp
+
+java -classpath "\
+kotlin-stdlib-0.10.195.jar:\
+kotlin-runtime-0.10.195.jar:\
+gson-2.3.1.jar:\
+jersey-client-2.13.jar:\
+jersey-common-2.13.jar:\
+javax.annotation-api-1.2.jar:\
+jersey-guava-2.13.jar:\
+osgi-resource-locator-1.0.1.jar:\
+javax.ws.rs-api-2.0.1.jar:\
+hk2-api-2.3.0-b10.jar:\
+hk2-utils-2.3.0-b10.jar:\
+aopalliance-repackaged-2.3.0-b10.jar:\
+javax.inject-2.3.0-b10.jar:\
+hk2-locator-2.3.0-b10.jar:\
+javassist-3.18.1-GA.jar:\
+commons-lang3-3.3.2.jar:\
+" net.loxal.client.rest.App
+
+cp /Users/alex/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/0.10.195/kotlin-stdlib-0.10.195.jar libs
+cp /Users/alex/.m2/repository/org/jetbrains/kotlin/kotlin-runtime/0.10.195/kotlin-runtime-0.10.195.jar libs
+cp /Users/alex/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/jersey/core/jersey-client/2.13/jersey-client-2.13.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/jersey/core/jersey-common/2.13/jersey-common-2.13.jar libs
+cp /Users/alex/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.13/jersey-guava-2.13.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar libs
+cp /Users/alex/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/hk2/hk2-api/2.3.0-b10/hk2-api-2.3.0-b10.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/hk2/hk2-utils/2.3.0-b10/hk2-utils-2.3.0-b10.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b10/aopalliance-repackaged-2.3.0-b10.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/hk2/external/javax.inject/2.3.0-b10/javax.inject-2.3.0-b10.jar libs
+cp /Users/alex/.m2/repository/org/glassfish/hk2/hk2-locator/2.3.0-b10/hk2-locator-2.3.0-b10.jar libs
+cp /Users/alex/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar libs
+cp /Users/alex/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar libs
+
+
+
