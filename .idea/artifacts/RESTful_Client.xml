@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="javafx" name="RESTful Client">
-    <output-path>$PROJECT_DIR$/target/artifacts/RESTful_Client</output-path>
+    <output-path>$PROJECT_DIR$/../rest-client/target/artifacts/RESTful_Client</output-path>
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="net.loxal.client.rest.App" />
