@@ -5,11 +5,13 @@
       <options>
         <option name="appClass" value="net.loxal.client.rest.App" />
         <option name="description" value="REST Client Tool" />
+        <option name="height" value="900" />
         <option name="htmlParamFile" value="" />
-        <option name="nativeBundle" value="all" />
+        <option name="nativeBundle" value="image" />
         <option name="paramFile" value="" />
         <option name="title" value="RESTful Client" />
         <option name="vendor" value="loxal" />
+        <option name="width" value="900" />
       </options>
     </properties>
     <root id="root">
