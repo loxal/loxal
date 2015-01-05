@@ -33,7 +33,9 @@
         <element id="library" level="project" name="Maven: org.javassist:javassist:3.18.1-GA" />
         <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-runtime:0.10.195" />
         <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:0.10.195" />
+        <element id="file-copy" path="$PROJECT_DIR$/../rest-client/src/main/resources/net/loxal/client/rest/view/ui.fxml" />
       </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../rest-client/src/main/resources/net/loxal/client/rest/view/ui.fxml" />
     </root>
   </artifact>
 </component>
