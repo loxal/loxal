@@ -36,6 +36,10 @@
     <option name="priority" value="Medium" />
     <option name="excludeFilter" value="" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="appengine-java" url="file://$PROJECT_DIR$/../rest-kit" />
+    <file type="web" url="file://$PROJECT_DIR$/../rest-kit" />
+  </component>
   <component name="HudsonMonitorComponent">
     <option name="timeOutTextField" value="30" />
   </component>
