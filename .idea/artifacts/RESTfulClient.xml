@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="RESTfulClient">
+    <output-path>$PROJECT_DIR$/../rest-client/target/artifacts/rest-client</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="net.loxal.client.rest.App" />
+        <option name="description" value="REST Client Tool" />
+        <option name="height" value="900" />
+        <option name="htmlParamFile" value="" />
+        <option name="nativeBundle" value="image" />
+        <option name="paramFile" value="" />
+        <option name="title" value="RESTful Client" />
+        <option name="vendor" value="loxal" />
+        <option name="width" value="900" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="rest-client.jar">
+        <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" />
+        <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-client:2.5.1" />
+        <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-common:2.5.1" />
+        <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-api:2.2.0-b21" />
+        <element id="library" level="project" name="Maven: com.google.guava:guava:14.0.1" />
+        <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.2.0-b21" />
+        <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+        <element id="library" level="project" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.2.0-b21" />
+        <element id="library" level="project" name="Maven: org.glassfish.hk2.external:cglib:2.2.0-b21" />
+        <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.2.0-b21" />
+        <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-utils:2.2.0-b21" />
+        <element id="library" level="project" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+        <element id="module-output" name="rest-client" />
+      </element>
+    </root>
+  </artifact>
+</component>
