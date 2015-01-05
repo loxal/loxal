@@ -1,11 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="vel:war exploded">
-    <output-path>$PROJECT_DIR$/../vel/target/vel-3.2.0-RELEASE</output-path>
+  <artifact type="exploded-war" name="me:war exploded">
+    <output-path>$PROJECT_DIR$/../vel/target/vel-3.3.1-RELEASE</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="me" />
-          <element id="library" level="application" name="Dart SDK" />
         </element>
       </element>
       <element id="directory" name="META-INF">

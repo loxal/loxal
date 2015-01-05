@@ -36,6 +36,7 @@
           <entry name="$PROJECT_DIR$/../../sdk/gwt/requestfactory-apt.jar" />
         </processorPath>
         <module name="example" />
+        <module name="me" />
         <module name="rest-client" />
         <module name="rest-kit" />
         <module name="vel" />
@@ -43,6 +44,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="example" target="1.8" />
+      <module name="me" target="1.8" />
       <module name="rest-client" target="1.8" />
       <module name="rest-kit" target="1.7" />
       <module name="vel" target="1.8" />
