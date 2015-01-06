@@ -1,15 +1,15 @@
 <component name="ArtifactManager">
-  <artifact type="javafx" name="RESTful Client">
-    <output-path>$PROJECT_DIR$/../rest-client/target/artifacts/RESTful_Client</output-path>
+  <artifact type="javafx" name="Epvin">
+    <output-path>$PROJECT_DIR$/../rest-client/target/artifacts/epvin</output-path>
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="net.loxal.client.rest.App" />
         <option name="description" value="REST Client Tool" />
         <option name="height" value="900" />
         <option name="htmlParamFile" value="" />
-        <option name="nativeBundle" value="image" />
+        <option name="nativeBundle" value="dmg" />
         <option name="paramFile" value="" />
-        <option name="title" value="RESTful Client" />
+        <option name="title" value="Epvin" />
         <option name="vendor" value="loxal" />
         <option name="width" value="900" />
       </options>
@@ -33,9 +33,7 @@
         <element id="library" level="project" name="Maven: org.javassist:javassist:3.18.1-GA" />
         <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-runtime:0.10.195" />
         <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:0.10.195" />
-        <element id="file-copy" path="$PROJECT_DIR$/../rest-client/src/main/resources/net/loxal/client/rest/view/ui.fxml" />
       </element>
-      <element id="file-copy" path="$PROJECT_DIR$/../rest-client/src/main/resources/net/loxal/client/rest/view/ui.fxml" />
     </root>
   </artifact>
 </component>
