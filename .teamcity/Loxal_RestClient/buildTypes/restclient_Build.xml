@@ -10,7 +10,7 @@
       <setting-ref ref="RUNNER_5" />
     </disabled-settings>
     <parameters />
-    <build-runners order="RUNNER_5, RUNNER_6, RUNNER_1">
+    <build-runners order="RUNNER_5, RUNNER_6, RUNNER_1, RUNNER_7">
       <runner id="RUNNER_6" name="Build Artifact" type="JPS">
         <parameters>
           <param name="artifactsToBuild"><![CDATA[Epvin
@@ -30,6 +30,21 @@ Release Epvin]]></param>
           <param name="teamcity.coverage.jacoco.patterns" value="+:*" />
           <param name="teamcity.coverage.runner" value="IDEA" />
           <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_7" name="New build step" type="Maven2">
+        <parameters>
+          <param name="goals" value="clean test" />
+          <param name="maven.home" value="" />
+          <param name="mavenSelection" value="mavenSelection:default" />
+          <param name="pomLocation" value="pom.xml" />
+          <param name="teamcity.coverage.emma.include.source" value="true" />
+          <param name="teamcity.coverage.emma.instr.parameters" value="-ix -*Test*" />
+          <param name="teamcity.coverage.idea.includePatterns" value="*" />
+          <param name="teamcity.coverage.jacoco.patterns" value="+:*" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="userSettingsPath" value="" />
+          <param name="userSettingsSelection" value="userSettingsSelection:default" />
         </parameters>
       </runner>
     </build-runners>
