@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../example/example.iml" filepath="$PROJECT_DIR$/../example/example.iml" />
       <module fileurl="file://$PROJECT_DIR$/loxal.iml" filepath="$PROJECT_DIR$/loxal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../me/me.iml" filepath="$PROJECT_DIR$/../me/me.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vel/me.iml" filepath="$PROJECT_DIR$/../vel/me.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rest-client/rest-client.iml" filepath="$PROJECT_DIR$/../rest-client/rest-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rest-kit/rest-kit.iml" filepath="$PROJECT_DIR$/../rest-kit/rest-kit.iml" />

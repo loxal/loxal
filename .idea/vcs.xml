@@ -13,8 +13,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../me" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../rest-client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../rest-kit" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../vel" vcs="Git" />
   </component>
 </project>
