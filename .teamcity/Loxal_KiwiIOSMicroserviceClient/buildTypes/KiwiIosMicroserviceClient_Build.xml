@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="d29fff60-477b-4fd7-97b5-6deeba340f20" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Build</name>
+  <description />
+  <settings ref="Build">
+    <disabled-settings>
+      <setting-ref ref="RUNNER_1" />
+    </disabled-settings>
+    <parameters />
+    <build-runners order="RUNNER_5, RUNNER_1, RUNNER_3">
+      <runner id="RUNNER_3" name="" type="Xcode">
+        <parameters>
+          <param name="arch" value="default" />
+          <param name="buildActions" value="clean build" />
+          <param name="configuration" value="###default###" />
+          <param name="customBuildOutputDir" value="build" />
+          <param name="platform" value="default" />
+          <param name="project" value="Kiwi Microservice Client.xcodeproj" />
+          <param name="scheme" value="Kiwi Client" />
+          <param name="sdk" value="default" />
+          <param name="target" value="###default###" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="useCustomBuildOutputDir" value="true" />
+          <param name="xcode" value="4" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="Kiwi_iOS_Client" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
