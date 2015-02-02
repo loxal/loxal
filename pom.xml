@@ -34,6 +34,12 @@
                 <scope>compile</scope>
             </dependency>
             <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-js-library</artifactId>
+                <version>${kotlin.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
