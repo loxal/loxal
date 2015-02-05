@@ -78,7 +78,6 @@
                             <configuration>
                                 <sourceDirs>
                                     <source>src/test/kotlin</source>
-                                    <source>src/test/resources</source>
                                 </sourceDirs>
                             </configuration>
                         </execution>
