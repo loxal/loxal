@@ -16,7 +16,7 @@
     <description>loxal Meta Harness</description>
 
     <modules>
-        <module>.</module>
+        <!--<module>.</module>-->
     </modules>
 
     <properties>
@@ -104,6 +104,34 @@
                     <optimize>${java.optimize}</optimize>
                 </configuration>
             </plugin>
+
+            <!--Create a release scope/profile out of it-->
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.5</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+            <!--Create a release scope/profile out of it-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
@@ -157,6 +185,39 @@
             </properties>
         </profile>
     </profiles>
+
+    <!--Put it into release scope/profile-->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>alex</id>
+            <name>Alexander Orlov</name>
+            <email>alexander.orlov@loxal.net</email>
+            <organization>loxal</organization>
+            <organizationUrl>http://www.loxal.net</organizationUrl>
+            <roles>
+                <role>Software Craftsman</role>
+            </roles>
+        </developer>
+    </developers>
 
     <scm>
         <connection>scm:git:git://github.com:loxal/loxal.git</connection>
