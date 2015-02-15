@@ -5,7 +5,9 @@
   <settings ref="Loxal_RestKit_Deploy">
     <parameters />
     <build-runners order="RUNNER_8" />
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Loxal_RestKit_RestKit" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <cleanup />
