@@ -7,7 +7,7 @@
     <build-runners>
       <runner id="RUNNER_9" name="" type="simpleRunner">
         <parameters>
-          <param name="command.executable" value="./release.sh" />
+          <param name="command.executable" value="/Users/alex/my/project/loxal/rest-client/release.sh" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
