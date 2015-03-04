@@ -15,7 +15,7 @@ cp target/Epvin-v*-RELEASE-jar-with-dependencies.jar ~/Google\ Drive/public/Epvi
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Loxal_RestClient_RestClient" />
+      <vcs-entry-ref root-id="Loxal_RestClient_RestClient1" />
     </vcs-settings>
     <requirements />
     <build-triggers />
