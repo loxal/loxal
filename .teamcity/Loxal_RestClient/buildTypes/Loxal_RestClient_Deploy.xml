@@ -4,7 +4,14 @@
   <description />
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_9" name="" type="simpleRunner">
+        <parameters>
+          <param name="command.executable" value="./release.sh" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Loxal_RestClient_RestClient" />
     </vcs-settings>
