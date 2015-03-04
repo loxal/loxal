@@ -10,7 +10,7 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>meta</artifactId>
-    <version>1.2.4</version>
+    <version>1.2.6</version>
     <packaging>pom</packaging>
     <name>meta</name>
     <description>loxal Meta Harness</description>
@@ -96,11 +96,10 @@
                     <compilerArgument>${maven-compiler-plugin.compilerArgument}</compilerArgument>
                     <compilerArgument>-Xlint:unchecked</compilerArgument>
                     <compilerArguments>
-                        <!--<profile>compact1</profile>-->
+                        <profile>compact1</profile>
                     </compilerArguments>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
-                    <optimize>${java.optimize}</optimize>
                 </configuration>
             </plugin>
         </plugins>
