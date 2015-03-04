@@ -22,7 +22,7 @@
       </runner>
       <runner id="RUNNER_1" name="" type="Maven2">
         <parameters>
-          <param name="goals" value="clean install" />
+          <param name="goals" value="clean validate install" />
           <param name="maven.home" value="" />
           <param name="mavenSelection" value="mavenSelection:default" />
           <param name="pomLocation" value="pom.xml" />
