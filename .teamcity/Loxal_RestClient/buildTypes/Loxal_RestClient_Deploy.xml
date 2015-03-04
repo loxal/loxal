@@ -7,7 +7,7 @@
     <build-runners>
       <runner id="RUNNER_9" name="Deploy" type="simpleRunner">
         <parameters>
-          <param name="script.content"><![CDATA[mvn clean assembly:assembly
+          <param name="script.content"><![CDATA[mvn clean test
 #cp target/Epvin-v*-RELEASE-jar-with-dependencies.jar ~/Google\ Drive/public/Epvin]]></param>
           <param name="teamcity.build.workingDir" value="./" />
           <param name="teamcity.step.mode" value="default" />
