@@ -48,10 +48,10 @@ Release Epvin]]></param>
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
-      <runner id="RUNNER_10" name="Deploy" type="simpleRunner">
+      <runner id="RUNNER_10" name="Snapshot" type="simpleRunner">
         <parameters>
           <param name="script.content"><![CDATA[cp target/Epvin-v*-SNAPSHOT-jar-with-dependencies.jar ~/Google\ Drive/public/Epvin
-cp target/Epvin-v*-SNAPSHOT-jar-with-dependencies.jar ~/Google\ Drive/public/Epvin/Epvin.jar]]></param>
+cp target/Epvin-v*-SNAPSHOT-jar-with-dependencies.jar ~/Google\ Drive/public/Epvin/Epvin-SNAPSHOT.jar]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
