@@ -16,7 +16,7 @@
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Loxal_RestClient_RestClient" />
+      <vcs-entry-ref root-id="Loxal_RestClient_RestClientRelease" />
     </vcs-settings>
     <requirements />
     <build-triggers />
