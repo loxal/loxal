@@ -11,7 +11,7 @@
     <build-runners>
       <runner id="RUNNER_13" name="" type="Maven2">
         <parameters>
-          <param name="goals" value="compile" />
+          <param name="goals" value="clean package" />
           <param name="maven.home" value="" />
           <param name="mavenSelection" value="mavenSelection:default" />
           <param name="pomLocation" value="pom.xml" />
