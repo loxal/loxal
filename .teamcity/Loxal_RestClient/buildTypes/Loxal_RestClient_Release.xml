@@ -4,7 +4,7 @@
   <description />
   <settings>
     <options>
-      <option name="executionTimeoutMin" value="5" />
+      <option name="cleanBuild" value="true" />
       <option name="shouldFailBuildOnAnyErrorMessage" value="true" />
     </options>
     <parameters />
