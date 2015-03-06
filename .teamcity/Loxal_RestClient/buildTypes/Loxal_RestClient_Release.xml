@@ -6,7 +6,7 @@
     <parameters />
     <build-runners />
     <vcs-settings>
-      <vcs-entry-ref root-id="Loxal_RestClient_RestClientDeploy" />
+      <vcs-entry-ref root-id="Loxal_RestClient_RestClientRelease" />
     </vcs-settings>
     <requirements />
     <build-triggers />
