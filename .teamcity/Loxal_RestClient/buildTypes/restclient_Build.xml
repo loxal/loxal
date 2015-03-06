@@ -57,7 +57,7 @@ cp target/Epvin-v*-jar-with-dependencies.jar ~/Google\ Drive/public/Epvin/Epvin-
           <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
-      <runner id="RUNNER_11" name="Snapshot (1) using remote script" type="simpleRunner">
+      <runner id="RUNNER_11" name="Snapshot using shell script" type="simpleRunner">
         <parameters>
           <param name="command.executable" value="./snapshot.sh" />
           <param name="teamcity.step.mode" value="default" />
