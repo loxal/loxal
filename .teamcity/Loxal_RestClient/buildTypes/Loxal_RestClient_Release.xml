@@ -8,12 +8,6 @@
     </options>
     <parameters />
     <build-runners>
-      <runner id="RUNNER_12" name="Release" type="simpleRunner">
-        <parameters>
-          <param name="command.executable" value="./release.sh" />
-          <param name="teamcity.step.mode" value="default" />
-        </parameters>
-      </runner>
       <runner id="RUNNER_13" name="" type="Maven2">
         <parameters>
           <param name="goals" value="compile" />
@@ -27,6 +21,12 @@
           <param name="teamcity.step.mode" value="default" />
           <param name="userSettingsPath" value="" />
           <param name="userSettingsSelection" value="userSettingsSelection:default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_12" name="Release" type="simpleRunner">
+        <parameters>
+          <param name="command.executable" value="./release.sh" />
+          <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
     </build-runners>
