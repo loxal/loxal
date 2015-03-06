@@ -3,6 +3,9 @@
   <name>Release</name>
   <description />
   <settings>
+    <options>
+      <option name="shouldFailBuildOnAnyErrorMessage" value="true" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="RUNNER_12" name="Release" type="simpleRunner">
