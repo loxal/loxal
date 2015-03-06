@@ -8,6 +8,7 @@
     </options>
     <disabled-settings>
       <setting-ref ref="RUNNER_1" />
+      <setting-ref ref="RUNNER_10" />
       <setting-ref ref="RUNNER_5" />
     </disabled-settings>
     <parameters />
@@ -46,6 +47,14 @@ Release Epvin]]></param>
           <param name="teamcity.coverage.jacoco.patterns" value="+:*" />
           <param name="teamcity.coverage.runner" value="IDEA" />
           <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_10" name="Snapshot" type="simpleRunner">
+        <parameters>
+          <param name="script.content"><![CDATA[cp target/Epvin-v*-jar-with-dependencies.jar ~/Google\ Drive/public/Epvin
+cp target/Epvin-v*-jar-with-dependencies.jar ~/Google\ Drive/public/Epvin/Epvin-SNAPSHOT.jar]]></param>
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
       <runner id="RUNNER_11" name="Snapshot (1)" type="simpleRunner">
