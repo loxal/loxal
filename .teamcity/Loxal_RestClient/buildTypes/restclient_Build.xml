@@ -54,7 +54,6 @@ Release Epvin]]></param>
       <runner id="RUNNER_11" name="Snapshot" type="simpleRunner">
         <parameters>
           <param name="command.executable" value="./snapshot.sh" />
-          <param name="command.parameters" value="-Dbuild.number=%build.number%" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
