@@ -7,7 +7,9 @@
       <option name="checkoutMode" value="ON_AGENT" />
       <option name="shouldFailBuildOnAnyErrorMessage" value="true" />
     </options>
-    <parameters />
+    <parameters>
+      <param name="env.build.number" value="%build.counter%" />
+    </parameters>
     <build-runners>
       <runner id="RUNNER_13" name="" type="Maven2">
         <parameters>
