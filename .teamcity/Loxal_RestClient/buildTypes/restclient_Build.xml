@@ -10,9 +10,7 @@
       <setting-ref ref="RUNNER_1" />
       <setting-ref ref="RUNNER_5" />
     </disabled-settings>
-    <parameters>
-      <param name="env.build.number" value="%build.counter%" />
-    </parameters>
+    <parameters />
     <build-runners order="RUNNER_5, RUNNER_1, RUNNER_7, RUNNER_6, RUNNER_11">
       <runner id="RUNNER_7" name="Maven" type="Maven2">
         <parameters>
