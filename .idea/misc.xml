@@ -36,16 +36,6 @@
     <option name="priority" value="Medium" />
     <option name="excludeFilter" value="" />
   </component>
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="appengine-java" url="file://$PROJECT_DIR$/../me" />
-    <file type="appengine-java" url="file://$PROJECT_DIR$/../rest-kit" />
-    <file type="appengine-java" url="file://$PROJECT_DIR$/../vel" />
-    <file type="gwt" url="file://$PROJECT_DIR$/../me" />
-    <file type="gwt" url="file://$PROJECT_DIR$/../vel" />
-    <file type="web" url="file://$PROJECT_DIR$/../me" />
-    <file type="web" url="file://$PROJECT_DIR$/../rest-kit" />
-    <file type="web" url="file://$PROJECT_DIR$/../vel" />
-  </component>
   <component name="HudsonMonitorComponent">
     <option name="timeOutTextField" value="30" />
   </component>
@@ -80,11 +70,7 @@
         <option value="$PROJECT_DIR$/../example/OSGi/pom.xml" />
         <option value="$PROJECT_DIR$/../example/OSGi/Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/../Cockpit/pom.xml" />
-        <option value="$PROJECT_DIR$/../rest-client/pom.xml" />
-        <option value="$PROJECT_DIR$/../example/pom.xml" />
         <option value="$PROJECT_DIR$/../whoami/pom.xml" />
-        <option value="$PROJECT_DIR$/../rest-kit/pom.xml" />
-        <option value="$PROJECT_DIR$/../me/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

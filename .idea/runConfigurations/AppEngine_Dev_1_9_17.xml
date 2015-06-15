@@ -6,9 +6,7 @@
     </server-settings>
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     <method>
-      <option name="BuildArtifacts" enabled="true">
-        <artifact name="rest-kit:war exploded" />
-      </option>
+      <option name="BuildArtifacts" enabled="true" />
     </method>
   </configuration>
 </component>
