@@ -10,7 +10,7 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>meta</artifactId>
-    <version>1.2.12</version>
+    <version>1.2.13</version>
     <packaging>pom</packaging>
     <name>meta</name>
     <description>loxal Meta Harness</description>
@@ -21,7 +21,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <kotlin.version>0.13.1514</kotlin.version>
+        <kotlin.version>0.14.449</kotlin.version>
         <build.number>0</build.number>
     </properties>
 
