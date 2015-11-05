@@ -6,6 +6,9 @@
     <options>
       <option name="artifactRules" value="target/*.war =&gt; out" />
     </options>
+    <disabled-settings>
+      <setting-ref ref="RUNNER_5" />
+    </disabled-settings>
     <parameters />
     <build-runners order="RUNNER_5, RUNNER_1" />
     <vcs-settings>
