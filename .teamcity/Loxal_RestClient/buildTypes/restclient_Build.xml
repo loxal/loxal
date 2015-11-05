@@ -10,6 +10,7 @@
     <disabled-settings>
       <setting-ref ref="RUNNER_1" />
       <setting-ref ref="RUNNER_5" />
+      <setting-ref ref="RUNNER_6" />
     </disabled-settings>
     <parameters>
       <param name="env.build.number" value="%build.counter%" />
