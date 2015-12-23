@@ -10,7 +10,7 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>meta</artifactId>
-    <version>1.2.20</version>
+    <version>1.2.23</version>
     <packaging>pom</packaging>
     <name>meta</name>
     <description>loxal Meta Harness</description>
@@ -21,7 +21,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <kotlin.version>1.0.0-beta-3594</kotlin.version>
+        <kotlin.version>1.0.0-beta-4583</kotlin.version>
         <build.number>0</build.number>
     </properties>
 
@@ -38,6 +38,12 @@
                 <artifactId>kotlin-js-library</artifactId>
                 <version>${kotlin.version}</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-test</artifactId>
+                <version>${kotlin.version}</version>
+                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
