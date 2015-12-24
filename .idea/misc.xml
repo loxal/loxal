@@ -102,10 +102,10 @@
         <option value="$PROJECT_DIR$/../Timmy/cockpit-widgets/pom.xml" />
         <option value="$PROJECT_DIR$/../Timmy/cockpit-widgets/timmy/pom.xml" />
         <option value="$PROJECT_DIR$/../Timmy/pom.xml" />
-        <option value="$PROJECT_DIR$/../example/OSGi/Consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/../example/OSGi/pom.xml" />
         <option value="$PROJECT_DIR$/Cockpit/pom.xml" />
         <option value="$PROJECT_DIR$/cockpit-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../example/OSGi/Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../example/OSGi/pom.xml" />
       </set>
     </option>
   </component>
