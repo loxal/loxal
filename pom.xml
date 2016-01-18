@@ -10,7 +10,7 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>blueprint</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>loxal Meta Harness</description>
@@ -97,9 +97,6 @@
                         <source>1.8</source>
                         <target>1.8</target>
                         <compilerArgument>-Xlint:unchecked</compilerArgument>
-                        <compilerArguments>
-                            <profile>compact1</profile>
-                        </compilerArguments>
                         <showWarnings>true</showWarnings>
                         <showDeprecation>true</showDeprecation>
                     </configuration>
