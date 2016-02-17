@@ -10,13 +10,16 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>blueprint</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
-    <description>loxal Meta Harness</description>
+    <description>loxal Blueprint Stack</description>
 
-    <modules>
-    </modules>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.2.RELEASE</version>
+    </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -107,6 +110,19 @@
 
     <profiles>
         <profile>
+            <id>local</id>
+            <distributionManagement>
+                <repository>
+                    <id>release</id>
+                    <url>file:///Users/alex/.m2/repository</url>
+                </repository>
+                <snapshotRepository>
+                    <id>snapshot</id>
+                    <url>file:///Users/alex/.m2/repository</url>
+                </snapshotRepository>
+            </distributionManagement>
+        </profile>
+        <profile>
             <id>deploy</id>
             <build>
                 <plugins>
@@ -139,62 +155,14 @@
             </build>
             <distributionManagement>
                 <snapshotRepository>
-                    <id>ossrh</id>
+                    <id>ossrh-snapshot</id>
                     <url>https://oss.sonatype.org/content/repositories/snapshots</url>
                 </snapshotRepository>
                 <repository>
-                    <id>ossrh</id>
+                    <id>ossrh-release</id>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
                 </repository>
             </distributionManagement>
-        </profile>
-        <profile>
-            <id>dev</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <java.optimize>false</java.optimize>
-
-                <cargo.hostname>sol</cargo.hostname>
-                <cargo.servlet.port>1111</cargo.servlet.port>
-
-                <cloudFoundry.appName>${project.artifactId}-dev</cloudFoundry.appName>
-            </properties>
-        </profile>
-        <profile>
-            <id>test</id>
-            <activation>
-                <property>
-                    <name>deploymentTarget</name>
-                    <value>TEST</value>
-                </property>
-            </activation>
-            <properties>
-                <java.optimize>true</java.optimize>
-
-                <cargo.hostname>sol</cargo.hostname>
-                <cargo.servlet.port>1111</cargo.servlet.port>
-
-                <cloudFoundry.appName>${project.artifactId}-test</cloudFoundry.appName>
-            </properties>
-        </profile>
-        <profile>
-            <id>demo</id>
-            <activation>
-                <property>
-                    <name>deploymentTarget</name>
-                    <value>DEMO</value>
-                </property>
-            </activation>
-            <properties>
-                <java.optimize>true</java.optimize>
-
-                <cargo.hostname>sol</cargo.hostname>
-                <cargo.servlet.port>1111</cargo.servlet.port>
-
-                <cloudFoundry.appName>${project.artifactId}-demo</cloudFoundry.appName>
-            </properties>
         </profile>
     </profiles>
 
