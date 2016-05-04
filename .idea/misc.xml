@@ -71,6 +71,7 @@
         <option value="$PROJECT_DIR$/../example/OSGi/Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/../Cockpit/pom.xml" />
         <option value="$PROJECT_DIR$/../whoami/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
