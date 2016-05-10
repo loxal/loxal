@@ -23,28 +23,8 @@
       <entry name="?*.ftl" />
       <entry name="trace.info" />
     </wildcardResourcePatterns>
-    <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <processorPath useClasspath="true">
-          <entry name="$PROJECT_DIR$/../../sdk/gwt/requestfactory-apt.jar" />
-        </processorPath>
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="false">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <processorPath useClasspath="true">
-          <entry name="$PROJECT_DIR$/../../sdk/gwt/requestfactory-apt.jar" />
-        </processorPath>
-        <module name="vel" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="blueprint" target="1.6" />
-      <module name="example" target="1.8" />
-      <module name="me" target="1.8" />
-      <module name="rest-client" target="1.8" />
-      <module name="rest-kit" target="1.7" />
-      <module name="vel" target="1.8" />
+      <module name="blueprint" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
