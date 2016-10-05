@@ -10,14 +10,14 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>blueprint</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.5</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>loxal Blueprint Stack</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.0.3</kotlin.version>
+        <kotlin.version>1.0.4</kotlin.version>
         <build.number>0</build.number>
     </properties>
 
@@ -37,7 +37,7 @@
             </dependency>
             <dependency>
                 <groupId>org.jetbrains.kotlin</groupId>
-                <artifactId>kotlin-test</artifactId>
+                <artifactId>kotlin-test-junit</artifactId>
                 <version>${kotlin.version}</version>
                 <scope>test</scope>
             </dependency>
