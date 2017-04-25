@@ -10,19 +10,25 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>blueprint</artifactId>
-    <version>1.1.11</version>
+    <version>1.1.12</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>loxal Blueprint Stack</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.1.1</kotlin.version>
+        <kotlin.version>1.1.2</kotlin.version>
         <build.number>0</build.number>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-stdlib-common</artifactId>
+                <version>${kotlin.version}</version>
+                <scope>compile</scope>
+            </dependency>
             <dependency>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-stdlib-jre8</artifactId>
