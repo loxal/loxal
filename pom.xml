@@ -10,14 +10,14 @@
 
     <groupId>net.loxal</groupId>
     <artifactId>blueprint</artifactId>
-    <version>1.1.12</version>
+    <version>1.1.13</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>loxal Blueprint Stack</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.1.2</kotlin.version>
+        <kotlin.version>1.1.2-2</kotlin.version>
         <build.number>0</build.number>
     </properties>
 
