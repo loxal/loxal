@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="Loxal" uuid="929f00b0-462a-42fc-a0c0-5796c515e861" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
   <name>Legacy</name>
-  <description>Service &amp; Android Client</description>
+  <description>Low priority projects</description>
   <parameters>
     <param name="env.VAULT_TOKEN" value="0a2e15a6-1c4a-504e-a9cb-01ba82e9eada" />
   </parameters>
