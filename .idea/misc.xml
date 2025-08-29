@@ -30,6 +30,7 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
     <option name="effort" value="default" />
@@ -103,10 +104,10 @@
         <option value="$PROJECT_DIR$/../Timmy/cockpit-widgets/pom.xml" />
         <option value="$PROJECT_DIR$/../Timmy/cockpit-widgets/timmy/pom.xml" />
         <option value="$PROJECT_DIR$/../Timmy/pom.xml" />
-        <option value="$PROJECT_DIR$/Cockpit/pom.xml" />
-        <option value="$PROJECT_DIR$/cockpit-demo/pom.xml" />
         <option value="$PROJECT_DIR$/../example/OSGi/Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/../example/OSGi/pom.xml" />
+        <option value="$PROJECT_DIR$/Cockpit/pom.xml" />
+        <option value="$PROJECT_DIR$/cockpit-demo/pom.xml" />
       </set>
     </option>
   </component>
@@ -124,7 +125,7 @@
       </entry>
     </default-configurations>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/target" />
   </component>
   <component name="SuppressionsComponent">
