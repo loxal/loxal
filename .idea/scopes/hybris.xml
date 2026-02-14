@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="hybris" pattern="[group:cockpitng and modules]:*..*" />
-</component>
