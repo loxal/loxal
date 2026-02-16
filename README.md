@@ -1,6 +1,6 @@
 # Virtual Craftsmanship Themes
 
-* DevOps & automation
+* DevOps, security & automation
 * Java/Kotlin veteran in all flavors: @JVM, @native, and @WASM
 * Containerization & Kubernetes
-* Rust ecosystem goodness — native and WASM-constrained in early stages
+* Rust ecosystem goodness — native and WASM-constrained
